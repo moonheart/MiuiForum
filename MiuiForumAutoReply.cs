@@ -35,20 +35,7 @@ namespace MiuiForum
             {
                 AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip
             };
-            /* 
-             * MIUI_2132_saltkey=UcmH49Q3; 
-             * MIUI_2132_lastvisit=1513992353; 
-             * MIUI_2132_visitedfid=705; 
-             * MIUI_2132_ulastactivity=8e6a2lLtV4egAHN9d%2BzkXRNisJ%2Bq8ont7YGtlkUPod1isjPd1lTMNxQ; 
-             * MIUI_2132_auth=3c44Hol3hYMVa%2FvjqCVzx3z8qceq0Hy5nlZM1ZwAZugIZaBNcFnOxnc; 
-             * lastLoginTime=4e7avpclCFEDcJWtQaShkY6Gk2wUOVmJ1%2BypdsnTTkV15fUHI%2BPU; 
-             * MIUI_2132_forum_lastvisit=D_705_1513995981;
-             * MIUI_2132_viewid=tid_11793856;
-             * MIUI_2132_sendmail=1; 
-             * MIUI_2132_lastact=1513996809%09home.php%09spacecp;
-             * MIUI_2132_checkpm=1; 
-             * MIUI_2132_smile=3D1
-             */
+            
             var cookieString = "";
             if (File.Exists("cookie.txt"))
             {
